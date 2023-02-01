@@ -15,10 +15,9 @@ footer li,
 #italiano i,
 #italiano {
     font-size: 11.5px;
-
 }
 
-button{
+button {
     cursor: pointer;
 }
 
@@ -34,11 +33,11 @@ p {
     background-color: rgb(0, 97, 255);
     border: none;
     font-size: 11.5px;
-    padding: 7px 6px;
+    padding: 9px 9px;
     color: white;
 }
 
-.blue-btn:hover{
+.blue-btn:hover {
     color: black;
     background-color: #B4D0E7;
 }
@@ -88,7 +87,7 @@ nav ul li {
     color: rgb(50, 50, 50);
 }
 
-nav ul li:hover{
+nav ul li:hover {
     border-bottom: 2px solid rgb(50, 50, 50);
 }
 
@@ -101,7 +100,7 @@ nav ul li:last-of-type {
     margin-right: 13px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: rgb(50, 50, 50);
     padding: 21px;
@@ -148,9 +147,14 @@ h1 {
 #testo-header p {
     line-height: 15.5px;
     color: rgb(50, 50, 50);
-    font-size: 11.5px;
     width: 100%;
     min-height: 20px;
+}
+
+#testo-header a {
+    text-decoration: none;
+
+    color: black;
 }
 
 #sopra-testo-header {
@@ -391,6 +395,10 @@ h3 {
     width: 63%;
 }
 
+#di-piu a {
+    color: blue;
+}
+
 /*----------designit-----------------------------------*/
 #designit {
     display: flex;
@@ -542,19 +550,19 @@ h3 {
     padding-bottom: 100px;
 }
 
-.container-domanda-e-risp:hover .bonus{
+.container-domanda-e-risp:hover .bonus {
     display: block;
 }
 
-.container-domanda-e-risp{
+.container-domanda-e-risp {
     cursor: pointer;
 }
 
-.container-domanda-e-risp:hover i{
+.container-domanda-e-risp:hover i {
     display: none
 }
 
-.bonus{
+.bonus {
     display: none;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -567,7 +575,7 @@ h3 {
 footer {
     background-color: black;
     min-height: 300px;
-    padding-top: 20px;
+    padding-top: 14px;
 }
 
 #footer-sopra {
@@ -586,28 +594,36 @@ footer {
 
 #footer-sopra li {
     list-style-type: none;
-    margin-bottom: 12px;
+    margin-bottom: 13px;
     color: white;
+}
+
+#footer-sopra li:first-of-type {
+    margin-bottom: 20px;
 }
 
 #footer-sopra li:last-of-type {
     margin-bottom: 50px;
 }
 
-hr {
-    color: gray;
+footer hr {
     width: 80px;
 }
 
 #footer-sotto {
-    height: 65px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    color: gray
 }
 
 .colonna-footer h4 {
     font-size: 1.3em;
     margin-bottom: 5px;
+}
+
+.colonna-footer a {
+    text-decoration: none;
+    color: white;
 }
