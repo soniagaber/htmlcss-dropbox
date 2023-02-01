@@ -79,6 +79,10 @@ nav ul li {
     color: rgb(50, 50, 50);
 }
 
+nav ul li:hover{
+    border-bottom: 2px solid rgb(50, 50, 50);
+}
+
 nav ul li:last-of-type {
     padding-left: 0;
 }
@@ -87,6 +91,14 @@ nav ul li:last-of-type {
     height: 40%;
     margin-right: 13px;
 }
+
+nav a{
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    padding: 21px;
+}
+
+
 
 /*----------------------------------------------------header-------------------------------------------------------*/
 
