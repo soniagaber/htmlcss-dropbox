@@ -6,6 +6,8 @@
     font-family: sans-serif;
 }
 
+/*------------------------------------------general------------------------------------------------------------------*/
+
 body p,
 i,
 a,
@@ -16,7 +18,9 @@ footer li,
 
 }
 
-/*------------------------------------------general------------------------------------------------------------------*/
+button{
+    cursor: pointer;
+}
 
 p {
     line-height: 15.5px;
@@ -32,6 +36,11 @@ p {
     font-size: 11.5px;
     padding: 7px 6px;
     color: white;
+}
+
+.blue-btn:hover{
+    color: black;
+    background-color: #B4D0E7;
 }
 
 .grigio-chiaro {
@@ -531,6 +540,27 @@ h3 {
 
 #domande-frequenti {
     padding-bottom: 100px;
+}
+
+.container-domanda-e-risp:hover .bonus{
+    display: block;
+}
+
+.container-domanda-e-risp{
+    cursor: pointer;
+}
+
+.container-domanda-e-risp:hover i{
+    display: none
+}
+
+.bonus{
+    display: none;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+    color: #0093CE;
+    font-size: 11.5px;
 }
 
 /*------------------------------------------footer------------------------------------------------------------------*/
